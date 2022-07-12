@@ -1,0 +1,9 @@
+.header {
+  grid-area: h;
+  background-color: pink;
+  height: 60px;
+}
+.header img {
+  height: 80%;
+}
+
