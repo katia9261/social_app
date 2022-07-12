@@ -6,7 +6,7 @@ import sidebarReducer from "./sidebar-reducer";
 const ADD_POST ='ADD_POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT';
 const UPDATE_NEW_NESSAGE_BODY = 'UPDATE_NEW_MESSAGE_BODY';
-const SEND_MESSAGE = 'SEND_MESSAG';
+const SEND_MESSAGE = 'SEND_MESSAGE';
 
 let store = {
   _state: {
@@ -39,6 +39,7 @@ let store = {
     },
     sidebar: {}
   },
+
   getState() {
     return this._state;
   },
@@ -64,7 +65,7 @@ let store = {
 
 export const addPostActionCreater = () => {
   return {
-    type: ADD_POST
+    type: ADD_POST,
     }
 };
 
