@@ -12,7 +12,6 @@ const dialogsReducer = (state, action) => {
       let body = state.newMessageBody;
       state.newMessageBody='';
       state.messages.push({id: 6, message: body});
-      console.log('hi')
     }
 
   return state;
