@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { addPost, updateNewPostChange } from './redux/state';
 import {BrowserRouter} from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import { updateNewPostText } from './redux/state';
+import { updateNewPostText } from './redux/profile-reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
